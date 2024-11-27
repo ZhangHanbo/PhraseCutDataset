@@ -45,7 +45,7 @@ types of attributes. We have pre-define vocabulary for each type.
 
 import json
 
-from file_paths import name_att_rel_count_fpath, img_info_fpath
+from vgphrase.file_paths import name_att_rel_count_fpath, img_info_fpath
 
 
 subsets = [

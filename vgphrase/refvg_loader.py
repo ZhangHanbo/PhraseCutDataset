@@ -2,11 +2,11 @@ import json
 import random
 import numpy as np
 
-from phrase_handler import PhraseHandler
-from vg_loader import VGLoader
-from subset import get_subset
-from data_transfer import polygons_to_mask
-from file_paths import img_info_fpath, refer_fpaths, refer_input_fpaths
+from vgphrase.phrase_handler import PhraseHandler
+from vgphrase.vg_loader import VGLoader
+from vgphrase.subset import get_subset
+from vgphrase.data_transfer import polygons_to_mask
+from vgphrase.file_paths import img_info_fpath, refer_fpaths, refer_input_fpaths
 
 
 class RefVGLoader(object):

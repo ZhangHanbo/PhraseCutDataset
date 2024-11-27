@@ -1,6 +1,6 @@
 import json
 
-from file_paths import name_att_rel_count_fpath
+from vgphrase.file_paths import name_att_rel_count_fpath
 
 
 class PhraseHandler(object):

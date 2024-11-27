@@ -14,9 +14,9 @@ add split: 'train'/'val'/'test' to img info
 import json
 import random
 
-from iou import iou_box
-from phrase_handler import PhraseHandler
-from file_paths import img_info_fpath, vg_scene_graph_fpaths
+from vgphrase.iou import iou_box
+from vgphrase.phrase_handler import PhraseHandler
+from vgphrase.file_paths import img_info_fpath, vg_scene_graph_fpaths
 
 
 class VGLoader(object):

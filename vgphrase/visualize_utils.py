@@ -8,8 +8,8 @@ from matplotlib.patches import Rectangle, Polygon
 
 plt.switch_backend('agg')
 
-from data_transfer import xyxy_to_xywh
-from file_paths import img_fpath
+from vgphrase.data_transfer import xyxy_to_xywh
+from vgphrase.file_paths import img_fpath
 
 
 # color for "pred_mask" should be a colormap

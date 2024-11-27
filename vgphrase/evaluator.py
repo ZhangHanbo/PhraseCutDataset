@@ -2,10 +2,10 @@ import os
 import numpy as np
 import matplotlib.pyplot as plt
 
-from iou import iou_boxes, iou_polygons_masks
-from refvg_loader import RefVGLoader
-import subset as subset_utils
-from file_paths import summary_path
+from vgphrase.iou import iou_boxes, iou_polygons_masks
+from vgphrase.refvg_loader import RefVGLoader
+import vgphrase.subset as subset_utils
+from vgphrase.file_paths import summary_path
 
 plt.switch_backend('agg')
 

@@ -4,10 +4,10 @@ import matplotlib.pyplot as plt
 
 plt.switch_backend('agg')
 
-import subset as subset_utils
-from visualize_utils import gt_visualize_to_file, pred_visualize_to_file, score_visualize_to_file
-from refvg_loader import RefVGLoader
-from file_paths import gt_plot_path_gray, gt_plot_path_color, img_fpath
+import vgphrase.subset as subset_utils
+from vgphrase.visualize_utils import gt_visualize_to_file, pred_visualize_to_file, score_visualize_to_file
+from vgphrase.refvg_loader import RefVGLoader
+from vgphrase.file_paths import gt_plot_path_gray, gt_plot_path_color, img_fpath
 
 
 html_head_str_formatter = '''
