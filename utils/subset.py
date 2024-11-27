@@ -48,17 +48,15 @@ import json
 from file_paths import name_att_rel_count_fpath, img_info_fpath
 
 
-subsets = ['all', 'c_coco',
-           'c20', 'c100', 'c500', 'c21-100', 'c101-500', 'c500+',
-           'i_single', 'i_multi', 'i_many',
-           'p_name', 'p_att', 'p_att+', 'p_rel', 'p_rel+', 'p_verbose', 'p_attm', 'p_relm',
-           't_stuff', 't_obj',
-           's_small', 's_mid', 's_large',
-           'a20', 'a100', 'a200', 'a21-100', 'a101-200', 'a200+',
-           'a_color', 'a_shape', 'a_material', 'a_texture', 'a_state', 'a_adj', 'a_noun', 'a_loc', 'a_count', 'a_bad',
-           'p_att_rel',
-           'd_cocotv', 'd_notcocotv'
-           ]
+subsets = [
+    'all', 'c_coco', 'c20', 'c100', 'c500', 'c21-100', 'c101-500', 'c500+',
+    'i_single', 'i_multi', 'i_many',
+    'p_name', 'p_att', 'p_att+', 'p_rel', 'p_rel+', 'p_verbose', 'p_attm', 'p_relm',
+    't_stuff', 't_obj', 's_small', 's_mid', 's_large',
+    'a20', 'a100', 'a200', 'a21-100', 'a101-200', 'a200+',
+    'a_color', 'a_shape', 'a_material', 'a_texture', 'a_state', 'a_adj', 'a_noun', 'a_loc', 'a_count', 'a_bad',
+    'p_att_rel', 'd_cocotv', 'd_notcocotv'
+]
 
 with open(name_att_rel_count_fpath, 'r') as f:
     count_info = json.load(f)

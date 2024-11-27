@@ -2,7 +2,7 @@
 import random
 from collections import OrderedDict
 
-from PhraseCutDataset.utils.refvg_loader import RefVGLoader
+from vgphrase.utils.refvg_loader import RefVGLoader
 
 
 class VGProcessor(RefVGLoader):

@@ -1,8 +1,8 @@
 import os
 from tqdm import tqdm
-from PhraseCutDataset.utils.refvg_loader import RefVGLoader
-from PhraseCutDataset.utils.visualize_utils import gt_visualize_to_file
-from PhraseCutDataset.utils.file_paths import gt_plot_path_color
+from vgphrase.utils.refvg_loader import RefVGLoader
+from vgphrase.utils.visualize_utils import gt_visualize_to_file
+from vgphrase.utils.file_paths import gt_plot_path_color
 
 
 loader = RefVGLoader()

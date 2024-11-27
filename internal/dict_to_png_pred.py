@@ -3,8 +3,8 @@ import numpy as np
 import json
 from tqdm import tqdm
 
-from PhraseCutDataset.utils.file_paths import img_info_fpath
-from PhraseCutDataset.utils.visualize_utils import save_pred_to_png
+from vgphrase.utils.file_paths import img_info_fpath
+from vgphrase.utils.visualize_utils import save_pred_to_png
 
 
 def pred_dict_to_png(dict_path):
