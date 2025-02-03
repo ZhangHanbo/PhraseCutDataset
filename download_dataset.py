@@ -4,7 +4,7 @@ import argparse
 import requests
 import gdown
 
-from utils.file_paths import *
+from vgphrase.file_paths import *
 
 
 def download(url, fpath):
@@ -74,7 +74,7 @@ def main():
     parser.add_argument('-s', '--split', type=str, default='train_val_test_miniv',
                         help='dataset split to download: val, miniv, test, train, val_miniv, ...')
     parser.add_argument('--download_refer', type=int, default=1, help='Whether to download the annotations (0 / 1)')
-    parser.add_argument('--download_img', type=int, default=1, help='Whether to download the images or not (0 / 1)')
+    parser.add_argument('--download_img', type=int, default=0, help='Whether to download the images or not (0 / 1)')
     parser.add_argument('--download_graph', type=int, default=0, help='Whether to download VG scene graph (0 / 1)')
     parser.add_argument('--download_skip', type=int, default=0, help='Whether to download skipped phrases (0 / 1)')
     args = parser.parse_args()
